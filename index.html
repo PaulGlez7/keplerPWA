@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
+
+    <title>Kepler</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+<header>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="IMG/videoplayback.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero">
+        <nav>
+            <img src="IMG/blackhole.PNG" class="logo">
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#historia">ACERCA</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+                <li><a href="#ubicacion">UBICACIÓN</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>KEPLER</h1>
+            
+            <button onclick="mostrarMensaje()">Ordena ya</button>
+
+
+        </div>
+    </div>
+</header>
+    
+
+    <main>
+        <section class="services-contenedor" id="servicio">
+            <div class="contenedor-servicio">
+                <img src="IMG/portada-k.jpg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service">Kepler</h3>
+                        <p> Black Hole Studios</p>
+                        <p> Optimizado para Xbos series S, PS5 y PC.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="historia" id="historia">
+            <h2 class="title">Acerca del juego</h2>
+            <div class="container">          
+            <div id="slide">
+                <div class="item" style="background-image: url(kepler.jpg);">
+                    <div class="content">
+                        <div class="name2">Kepler</div>
+                        <div class="des2">El gobierno ha decidido mandar expediciones a otro planeta en busca de la solución 
+                            por la alta contaminación del agua en la Tierra.</div>
+                        
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(escenario1.PNG);">
+                    <div class="content">
+                        <div class="name">Nivel 1</div>
+                        <div class="des">El objetivo de este nivel es eliminar los enemigos y descubrir pistas sobre el 
+                            elemento Bioquanta que purifica el agua</div>
+                        
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(escenario2.PNG);">
+                    <div class="content">
+                        <div class="name2">Nivel 2</div>
+                        <div class="des2">En este nivel se debe recolectar los contenedores que tienen Bioquanta la mayor cantidad posible, 
+                            así como sobrevivir a los enemigos</div>
+                        
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(juego1.PNG);">
+                    <div class="content">
+                        <div class="name">Jugabilidad</div>
+                        <div class="des">En el desarrollo del juego podras recoger armas, ver tu salud, ver la ubicación de los enemigos</div>
+                        </div>
+                </div>
+                    <div class="item" style="background-image: url(juego3.PNG);">
+                        <div class="content">
+                            <div class="name">Enemigos</div>
+                            <div class="des">Algunos enemigos son más difíciles de eliminar, recuerda disparar a la cabeza  </div>
+                            
+                        </div>  
+                    </div>
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>  
+        </section>
+
+
+        <section class="work-team">
+            <div class="developer">
+                <div class="section-header">
+                    <h2 class="title">Equipo de trabajo</h2>
+                </div>
+                <div class="developer-content">
+                    <div class="swiper developer-slider js-developer-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide developer-item">
+                                <div class="info">
+                                    <img src="IMG/fondo_paul.jpg">
+                                    <div class="text-box">
+                                        <h3 class="name">Eduardo González</h3>
+                                        <span class="job">Programador</span>
+                                    </div>
+                                </div>
+                                <p>Encargado de dirigir el proyecto y programar la PWA y la aplicación móvil.</p>
+                                
+                            </div>
+
+                            <div class="swiper-slide developer-item">
+                                <div class="info">
+                                    <img src="IMG/fondo_jairo.jpg">
+                                    <div class="text-box">
+                                        <h3 class="name">Jairo Robles</h3>
+                                        <span class="job">Programador</span>
+                                    </div>
+                                </div>
+                                <p>Encargado de desarrollar el videojuego en Unity, programando y haciendo pruebas.</p>
+                                
+                            </div>
+
+                            <div class="swiper-slide developer-item">
+                                <div class="info">
+                                    <img src="IMG/foto_cesar.PNG">
+                                    <div class="text-box">
+                                        <h3 class="name">Cesar Jiménez</h3>
+                                        <span class="job">Diseñador</span>
+                                    </div>
+                                </div>
+                                <p>Encargado de desarrollar los diseños de juego y publicidad.</p>
+                                
+                            </div>
+
+                            <div class="swiper-slide developer-item">
+                                <div class="info">
+                                    <img src="IMG/foto_carlos.PNG">
+                                    <div class="text-box">
+                                        <h3 class="name">Carlos Hernández</h3>
+                                        <span class="job">Documentador</span>
+                                    </div>
+                                </div>
+                                <p>Encardo de documentar todo el proceso en el documento final y de la logística del evento. </p>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination js-developer-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+
+    <section class="contacto" id="contacto">
+        <div class="formulario">
+            <div class="box-info">
+                <h1>CONTÁCTATE CON NOSOTROS</h1>
+                <div class="data">
+                    <p><i class="fa-solid fa-phone"></i> +1 311 123 4567</p>
+                    <p><i class="fa-solid fa-envelope"></i> bhs_kepler@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Plaza Manglar, local #7, Tepic, Nayarit.</p>
+                </div>
+                <div class="links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/00_kepler?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form action="" method="POST" id="contactForm">
+                <div class="alert"> Su mensaje ha sido enviado</div>
+                <div class="input-box">
+                    <input type="text" name="name" id="name" placeholder="Nombre y apellido" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="email"  name="email" id="email" required placeholder="Correo electrónico">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                
+                <div class="input-box">
+                    <textarea name="message" id="message" placeholder="Escribe tu mensaje..."></textarea>
+                </div>
+                <button type="submit">Enviar mensaje</button>
+                
+                <input type="hidden" name="_next" value="http://localhost:8080">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+
+    <section class="mapa" id="ubicacion">
+        <div class="mostrar-ubicacion">
+            <h2>Encuentranos desde tu ubicación</h2>
+            <!-- <button onclick="getLocation()">Mostrar Ubicación</button> -->
+            
+        </div>
+        <div id="map"></div>
+    </section>
+    
+
+    </main>
+
+    
+    <script src="gps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="database.js"></script>
+</body>
+<script src="script.js"></script>
+
+<script>
+    if('serviceWorker' in navigator){
+        navigator.serviceWorker.register('/service.js',{scope:'/'});
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.js-developer-slider', {
+        grabCursor:true,
+        spaceBetween:30,
+        pagination:{
+            el:'.js-developer-pagination',
+            clickable:true
+        },
+        breakpoints:{
+            767:{
+                slidesPerView:2
+            }
+        }
+    }
+    );
+</script>
+
+<script>
+    function mostrarMensaje() {
+      alert('Felicidades eres el número 1 en la fila virtual');
+    }
+  </script>
+
+
+</html>
